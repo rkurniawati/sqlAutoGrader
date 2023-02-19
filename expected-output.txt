@@ -1,0 +1,182 @@
++-----------------+
+|                 |
++-----------------+
+| **** Question 1 |
++-----------------+
++--------+-----------------------------+---------+-------------------+-----------+
+| DeptID | DeptName                    | MajorID | MajorName         | StartYear |
++--------+-----------------------------+---------+-------------------+-----------+
+| COMP   | Competition and Show        | AGIL    | Agility           |      2021 |
+| COMP   | Competition and Show        | SHOW    | Showmanship       |      2021 |
+| COMP   | Competition and Show        | SLED    | Sled Dog          |      2022 |
+| MILP   | Military and Police Careers | BOMB    | Bomb Detection    |      2022 |
+| MILP   | Military and Police Careers | DRUG    | Drug Detection    |      2020 |
+| MILP   | Military and Police Careers | SECU    | Security          |      2020 |
+| SERV   | Service Careers             | GUID    | Guide Dog         |      2021 |
+| SERV   | Service Careers             | RESC    | Search and Rescue |      2020 |
++--------+-----------------------------+---------+-------------------+-----------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 2 |
++-----------------+
++--------+-----------------------------+---------+-------------------+-----------+
+| DeptID | DeptName                    | MajorID | MajorName         | StartYear |
++--------+-----------------------------+---------+-------------------+-----------+
+| COMP   | Competition and Show        | AGIL    | Agility           |      2021 |
+| COMP   | Competition and Show        | SHOW    | Showmanship       |      2021 |
+| COMP   | Competition and Show        | SLED    | Sled Dog          |      2022 |
+| FILM   | Film and TV Careers         | NULL    | NULL              |      NULL |
+| MILP   | Military and Police Careers | BOMB    | Bomb Detection    |      2022 |
+| MILP   | Military and Police Careers | DRUG    | Drug Detection    |      2020 |
+| MILP   | Military and Police Careers | SECU    | Security          |      2020 |
+| SERV   | Service Careers             | GUID    | Guide Dog         |      2021 |
+| SERV   | Service Careers             | RESC    | Search and Rescue |      2020 |
++--------+-----------------------------+---------+-------------------+-----------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 3 |
++-----------------+
++--------+-----------------------------+-----------+
+| DeptID | DeptName                    | NumMajors |
++--------+-----------------------------+-----------+
+| COMP   | Competition and Show        |         3 |
+| MILP   | Military and Police Careers |         3 |
+| SERV   | Service Careers             |         2 |
+| FILM   | Film and TV Careers         |         0 |
++--------+-----------------------------+-----------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 4 |
++-----------------+
++--------+-----------------------------+------------+------------+------------+------------+
+| DeptID | DeptName                    | NumCourses | AvgCredits | MinCredits | MaxCredits |
++--------+-----------------------------+------------+------------+------------+------------+
+| SERV   | Service Careers             |         10 |     3.5000 |          2 |          4 |
+| COMP   | Competition and Show        |          9 |     2.8889 |          2 |          4 |
+| MILP   | Military and Police Careers |          8 |     3.5000 |          2 |          5 |
+| FILM   | Film and TV Careers         |          0 |       NULL |       NULL |       NULL |
++--------+-----------------------------+------------+------------+------------+------------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 5 |
++-----------------+
++---------+----------------+
+| MajorID | MajorName      |
++---------+----------------+
+| AGIL    | Agility        |
+| BOMB    | Bomb Detection |
+| DRUG    | Drug Detection |
+| SHOW    | Showmanship    |
+| SLED    | Sled Dog       |
++---------+----------------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 6 |
++-----------------+
++--------+-----------------------------+
+| DeptID | DeptName                    |
++--------+-----------------------------+
+| COMP   | Competition and Show        |
+| MILP   | Military and Police Careers |
++--------+-----------------------------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 7 |
++-----------------+
++-------+---------+--------------------------+
+| DogID | DogName | Breed                    |
++-------+---------+--------------------------+
+|     1 | Bertie  | Beagle                   |
+|     4 | Ozzie   | Beagle                   |
+|     6 | Peanut  | Poodle                   |
+|     7 | Orion   | Poodle                   |
+|     8 | Ivan    | Siberian Husky           |
+|    11 | Charlie | Black Labrador Retriever |
+|    15 | Alfie   | Daschund                 |
+|    16 | Charlie | Poodle                   |
+|    19 | Lily    | Havanese                 |
+|    20 | Stella  | Havanese                 |
++-------+---------+--------------------------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 8 |
++-----------------+
++---------+-----------+------------+-------+---------+--------------------------+
+| OwnerID | FirstName | LastName   | DogID | DogName | Breed                    |
++---------+-----------+------------+-------+---------+--------------------------+
+|       1 | Ruth      | Kurniawati |     1 | Bertie  | Beagle                   |
+|       3 | Carol     | Danvers    |     4 | Ozzie   | Beagle                   |
+|       4 | Wade      | Wilson     |     6 | Peanut  | Poodle                   |
+|       4 | Wade      | Wilson     |     7 | Orion   | Poodle                   |
+|       4 | Wade      | Wilson     |     8 | Ivan    | Siberian Husky           |
+|       5 | Anthony   | Stark      |    11 | Charlie | Black Labrador Retriever |
+|       8 | Robert    | Banner     |    15 | Alfie   | Daschund                 |
+|       8 | Robert    | Banner     |    16 | Charlie | Poodle                   |
+|      10 | T'Challa  | Wakanda    |    19 | Lily    | Havanese                 |
+|      10 | T'Challa  | Wakanda    |    20 | Stella  | Havanese                 |
++---------+-----------+------------+-------+---------+--------------------------+
++-----------------+
+|                 |
++-----------------+
+| **** Question 9 |
++-----------------+
++---------+-------------------+--------+----------+----------------------------------------------------+------------+
+| MajorID | MajorName         | DeptID | CourseID | CourseName                                         | NumCredits |
++---------+-------------------+--------+----------+----------------------------------------------------+------------+
+| AGIL    | Agility           | COMP   |      102 | Good Citizenship                                   |          3 |
+| AGIL    | Agility           | COMP   |      160 | Ramps and Obstacles I: Basic Course                |          4 |
+| AGIL    | Agility           | COMP   |      170 | Ramps and Obstacles II: Advanced Course            |          4 |
+| AGIL    | Agility           | COMP   |      201 | Understanding Judges and Audience Behavior         |          3 |
+| BOMB    | Bomb Detection    | MILP   |      101 | Basic Military Training                            |          4 |
+| BOMB    | Bomb Detection    | MILP   |      102 | Good Citizenship                                   |          3 |
+| BOMB    | Bomb Detection    | MILP   |      120 | Basic Navigation                                   |          4 |
+| BOMB    | Bomb Detection    | MILP   |      205 | Identification of Explosives                       |          3 |
+| BOMB    | Bomb Detection    | MILP   |      235 | Explosive Safety                                   |          2 |
+| DRUG    | Drug Detection    | MILP   |      101 | Basic Military Training                            |          4 |
+| DRUG    | Drug Detection    | MILP   |      102 | Good Citizenship                                   |          3 |
+| DRUG    | Drug Detection    | MILP   |      215 | Basic Identification of Food and Drug              |          4 |
+| DRUG    | Drug Detection    | MILP   |      225 | Identification of Narcotics                        |          5 |
+| GUID    | Guide Dog         | SERV   |      102 | Good Citizenship                                   |          3 |
+| GUID    | Guide Dog         | SERV   |      110 | Navigating Traffic                                 |          3 |
+| GUID    | Guide Dog         | SERV   |      215 | Food and Drugs: Basic Identification and Signaling |          4 |
+| RESC    | Search and Rescue | SERV   |      101 | Introduction to Search and Rescue                  |          2 |
+| RESC    | Search and Rescue | SERV   |      102 | Good Citizenship                                   |          3 |
+| RESC    | Search and Rescue | SERV   |      160 | Navigating Obstacles and Rough Terrain             |          4 |
+| RESC    | Search and Rescue | SERV   |      180 | Identifying and Tracking Humans by Scent           |          4 |
+| RESC    | Search and Rescue | SERV   |      200 | Water Rescue                                       |          4 |
+| SECU    | Security          | MILP   |      102 | Good Citizenship                                   |          3 |
+| SECU    | Security          | MILP   |      205 | Introduction to Canine Psychology                  |          4 |
+| SECU    | Security          | MILP   |      215 | Food and Drugs: Basic Identification and Signaling |          4 |
+| SHOW    | Showmanship       | COMP   |      102 | Good Citizenship                                   |          3 |
+| SHOW    | Showmanship       | COMP   |      130 | Walking the Ring                                   |          3 |
+| SHOW    | Showmanship       | COMP   |      201 | Understanding Judges and Audience Behavior         |          3 |
+| SHOW    | Showmanship       | COMP   |      207 | Introduction to Canine Fashion and Trends          |          2 |
+| SLED    | Sled Dog          | COMP   |      160 | Ramps and Obstacles I: Basic Course                |          4 |
+| SLED    | Sled Dog          | COMP   |      170 | Ramps and Obstacles II: Advanced Course            |          4 |
+| SLED    | Sled Dog          | COMP   |      217 | Introduction to Sledding                           |          2 |
+| SLED    | Sled Dog          | COMP   |      227 | Advanced Sledding                                  |          2 |
++---------+-------------------+--------+----------+----------------------------------------------------+------------+
++------------------+
+|                  |
++------------------+
+| **** Question 10 |
++------------------+
++---------+-------------------+--------+--------------------+--------------+
+| MajorID | MajorName         | DeptID | NumRequiredCourses | TotalCredits |
++---------+-------------------+--------+--------------------+--------------+
+| RESC    | Search and Rescue | SERV   |                  5 |           17 |
+| BOMB    | Bomb Detection    | MILP   |                  5 |           16 |
+| DRUG    | Drug Detection    | MILP   |                  4 |           16 |
+| AGIL    | Agility           | COMP   |                  4 |           14 |
+| SLED    | Sled Dog          | COMP   |                  4 |           12 |
+| SHOW    | Showmanship       | COMP   |                  4 |           11 |
+| SECU    | Security          | MILP   |                  3 |           11 |
+| GUID    | Guide Dog         | SERV   |                  3 |           10 |
++---------+-------------------+--------+--------------------+--------------+
