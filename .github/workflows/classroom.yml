@@ -1,0 +1,29 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+env:
+  DB_DATABASE: K9U
+  DB_USER: root
+  DB_PASSWORD: root
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up MySQL
+        run: |
+          sudo /etc/init.d/mysql start
+          mysql -e 'CREATE DATABASE ${{ env.DB_DATABASE }};' -u${{ env.DB_USER }} -p${{ env.DB_PASSWORD }}
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - name: Set up K9U
+        run: |
+          mysql --database=${{ env.DB_DATABASE }} --user=${{ env.DB_USER }} --password=${{ env.DB_PASSWORD }} < ./.github/scripts/create-tables.sql
+          mysql --database=${{ env.DB_DATABASE }} --user=${{ env.DB_USER }} --password=${{ env.DB_PASSWORD }} < ./.github/scripts/insert-data.sql
+      - run: pip install -r requirements.txt
+      - uses: education/autograding@v1
