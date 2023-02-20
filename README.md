@@ -1,3 +1,6 @@
+# SQL Autograder
+This is an example repository that is setup to autograde students' SQL assignments in a container using GitHub Action. The instructions for the assignment is below. The student workflow is described in this [video](https://youtu.be/AQwLtBUx0bw).
+
 ## Instructions
 
 For this assignment, submit the completed template SQL text file [`answers.sql`](answers.sql). In this file you should include all the SQL statements you use to answer the questions below using the `K9U` database. 
