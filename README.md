@@ -1,5 +1,5 @@
 # SQL Autograder
-This is an example repository that is setup to autograde students' SQL assignments in a container using GitHub Action. The instructions for the assignment is below. The student workflow is described in this [video](https://youtu.be/AQwLtBUx0bw).
+This is an example repository that is setup to autograde students' SQL assignments in a container using GitHub Action. The instructions and questions for the assignment are listed below. The student workflow is described in this [video](https://youtu.be/AQwLtBUx0bw).
 
 ## Instructions
 
